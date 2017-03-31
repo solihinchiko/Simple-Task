@@ -48,7 +48,7 @@
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults removeObjectForKey:@"USER"];
-    [defaults removeObjectForKey:@"TASK"];
+//    [defaults removeObjectForKey:@"TASK"];        // open this if you want to delete task also.
     [defaults synchronize];
     
     // back to login
